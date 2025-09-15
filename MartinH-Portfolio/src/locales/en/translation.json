@@ -1,0 +1,14 @@
+{
+  "header": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Full Stack Web Developer",
+    "description": "Full Stack Developer who connects React frontends with efficient Node.js-based backends...",
+    "github_button": "GitHub",
+    "contact_button": "Contact"
+  }
+}

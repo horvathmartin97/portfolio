@@ -1,0 +1,14 @@
+{
+  "header": {
+    "experience": "Tapasztalat",
+    "projects": "Projektek",
+    "skills": "Készségek",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title": "Full Stack Webfejlesztő",
+    "description": "Full Stack Fejlesztő, aki a React frontendeket Node.js alapú, hatékony backendekkel köti össze...",
+    "github_button": "GitHub",
+    "contact_button": "Kapcsolat"
+  }
+}
