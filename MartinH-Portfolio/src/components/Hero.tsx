@@ -1,11 +1,14 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useTranslation } from "react-i18next";
 export default function Hero() {
+  const { t } = useTranslation();
+  const myName = t("hero.name");
   return (
     <section id="hero" className="w-full text-white py-20 bg-gray-800 md:py-32">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Horváth Martin
+            {myName}
           </h1>
           <p className="text-xl md:text-2xl text-blue-300 mt-2 mb-6">
             Full Stack Webfejlesztő

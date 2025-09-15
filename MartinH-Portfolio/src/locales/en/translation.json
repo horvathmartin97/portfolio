@@ -6,6 +6,7 @@
     "contact": "Contact"
   },
   "hero": {
+    "name": "Martin Horváth",
     "title": "Full Stack Web Developer",
     "description": "Full Stack Developer who connects React frontends with efficient Node.js-based backends...",
     "github_button": "GitHub",
