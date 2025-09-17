@@ -8,7 +8,7 @@
   "hero": {
     "name": "Martin Horváth",
     "title": "Full Stack Web Developer",
-    "description": "Full Stack Developer who connects React frontends with efficient Node.js-based backends...",
+    "description": "Full Stack Developer specializing in building intuitive React frontends and robust, Node.js-based backend systems. My expertise includes designing REST APIs with Express.js, managing databases with Prisma and PostgreSQL, and ensuring application-wide robustness with TypeScript. I am committed to writing clean code and efficiently solving complex problems.",
     "github_button": "GitHub",
     "contact_button": "Contact"
   }

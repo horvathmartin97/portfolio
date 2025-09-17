@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 export default function Hero() {
   const { t } = useTranslation();
   const myName = t("hero.name");
+  const heroTitle = t("hero.title");
+  const heroDescription = t("hero.description");
   return (
     <section id="hero" className="w-full text-white py-20 bg-gray-800 md:py-32">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
@@ -11,15 +13,9 @@ export default function Hero() {
             {myName}
           </h1>
           <p className="text-xl md:text-2xl text-blue-300 mt-2 mb-6">
-            Full Stack Webfejlesztő
+            {heroTitle}
           </p>
-          <p className="max-w-xl text-gray-300">
-            Full Stack Fejlesztő, aki a React frontendeket Node.js alapú,
-            hatékony backendekkel köti össze. Főbb kompetenciáim: REST API
-            fejlesztés (Express.js), adatbázis-kezelés és a teljes alkalmazás
-            típusbiztossá tétele TypeScript segítségével. Nyitottan állok az új
-            technológiai kihívások elé.
-          </p>
+          <p className="max-w-xl text-gray-300">{heroDescription}</p>
 
           <div className="mt-8 flex justify-center md:justify-start gap-4">
             <a
