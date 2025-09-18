@@ -1,5 +1,6 @@
 {
   "header": {
+    "name": "Horváth Martin",
     "experience": "Tapasztalat",
     "projects": "Projektek",
     "skills": "Készségek",
@@ -11,5 +12,39 @@
     "description": "Full Stack Fejlesztő, aki intuitív React felületeket és stabil, Node.js alapú backend rendszereket épít. Szakértelmem kiterjed REST API-k tervezésére Express.js segítségével, adatbázis-kezelésre Prismával és PostgreSQL-lel, valamint a teljes alkalmazás robusztussá tételére TypeScripttel. Célom a tiszta kód írása és a komplex problémák hatékony megoldása.",
     "github_button": "GitHub",
     "contact_button": "Kapcsolat"
+  },
+  "projects": {
+    "title": "Projektek",
+    "live_button": "Élő Verzió",
+    "github_button": "GitHub",
+    "image_placeholder": "Projekt kép",
+    "image_alt": "{{title}} projekt képe",
+    "project_list": [
+      {
+        "key": "pawmap",
+        "title": "PawMap",
+        "description": "A PawMap egy teljes körű Full Stack webalkalmazás, amely a React és a Node.js modern technológiáit ötvözi egy interaktív, térképes felületen. A projekt célja, hogy központi platformot biztosítson a kisállattartóknak állatbarát helyek felfedezésére és megosztására.",
+        "tags": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "liveUrl": "https://pawmap.eu",
+        "githubUrl": "https://github.com/horvathmartin97",
+        "imageKey": "pawmapImage"
+      },
+      {
+        "key": "silverarrow",
+        "title": "Silver Arrow Car",
+        "description": "A Silver Arrow Car Kft. számára egy dinamikus digitális bemutatótermet hoztam létre, ahol az autóvásárlás élménnyé válik. A platformon az érdeklődők nemcsak megtekinthetik és szűrhetik az autókat, hanem egy 'virtuális garázst' is létrehozhatnak. A projekt egy Full Stack megoldás, teljes CRUD-műveleteket támogató adminisztrációs rendszer egészíti ki, teljes kontrollt adva az üzemeltetők kezébe.",
+        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+        "liveUrl": null,
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
+        "imageKey": "silverArrowImage"
+      }
+    ]
   }
 }

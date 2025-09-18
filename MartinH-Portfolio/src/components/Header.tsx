@@ -10,11 +10,11 @@ export default function Header() {
     { title: t("header.skills"), href: "#skills" },
     { title: t("header.contact"), href: "#contact" },
   ];
-
+  const navName = t("header.name");
   return (
     <header className="flex justify-between items-center p-4 border-b border-gray-700 bg-gray-900 text-white">
       <a href="#hero" className="text-xl font-bold">
-        Horváth Martin
+        {navName}
       </a>
 
       <nav className="hidden md:flex items-center gap-8 font-medium">

@@ -2,43 +2,31 @@ import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import pawmapImage from "../assets/pawmap.png";
+import { useTranslation } from "react-i18next";
 
-const projectData = [
-  {
-    title: "PawMap",
-    description:
-      "A PawMap egy teljes körű Full Stack webalkalmazás, amely a React és a Node.js modern technológiáit ötvözi egy interaktív, térképes felületen. A projekt célja, hogy központi platformot biztosítson a kisállattartóknak állatbarát helyek felfedezésére és megosztására.",
-    tags: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "TypeScript",
-    ],
-    liveUrl: "https://pawmap.eu",
-    githubUrl: "https://github.com/horvathmartin97",
-    image: pawmapImage,
-  },
-  {
-    title: "Silver Arrow Car",
-    description:
-      "A Silver Arrow Car Kft. számára egy dinamikus digitális bemutatótermet hoztam létre, ahol az autóvásárlás élménnyé válik. A platformon az érdeklődők nemcsak megtekinthetik és szűrhetik az autókat, hanem egy 'virtuális garázst' is létrehozhatnak. A projekt egy Full Stack megoldás, teljes CRUD-műveleteket támogató adminisztrációs rendszer egészíti ki, teljes kontrollt adva az üzemeltetők kezébe.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL",
-      "Prisma",
-      "TypeScript",
-    ],
-    liveUrl: null,
-    githubUrl: "https://github.com/horvathmartin97/my-showcase-projects",
-    image: "",
-  },
-];
-
+interface Projects {
+  key: string;
+  title: string;
+  description: string;
+  tags: string[];
+  liveUrl: string | null;
+  githubUrl: string;
+  imageKey: string;
+}
+const projectImages: { [key: string]: string } = {
+  pawmapImage: pawmapImage,
+  silverArrowImage: "",
+};
 export default function Projects() {
+  const { t } = useTranslation();
+
+  const projectsTitle = t("projects.title");
+  const liveButton = t("projects.live_button");
+
+  const projectData = t("projects.project_list", {
+    returnObjects: true,
+  }) as Projects[];
+
   return (
     <section
       id="projects"
@@ -46,7 +34,7 @@ export default function Projects() {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">
-          Kiemelt Projektjeim
+          {projectsTitle}
         </h2>
 
         <div className="flex flex-col gap-24">
@@ -59,14 +47,16 @@ export default function Projects() {
                 className={`w-full ${index % 2 !== 0 ? "md:order-last" : ""}`}
               >
                 <div className="aspect-video bg-gray-700 rounded-lg flex items-center justify-center shadow-lg hover:shadow-blue-500/20 transition-shadow duration-300">
-                  {project.image ? (
+                  {project.imageKey && projectImages[project.imageKey] ? (
                     <img
-                      src={project.image}
-                      alt={`${project.title} projekt képe`}
+                      src={projectImages[project.imageKey]}
+                      alt={t("projects.image_alt", { title: project.title })}
                       className="rounded-lg object-cover w-full h-full"
                     />
                   ) : (
-                    <p className="text-gray-400">Projekt kép</p>
+                    <p className="text-gray-400">
+                      {t("projects.image_placeholder")}
+                    </p>
                   )}
                 </div>
               </div>
@@ -99,7 +89,7 @@ export default function Projects() {
                       href={project.liveUrl}
                       target="_blank"
                     >
-                      Élő Verzió
+                      {liveButton}
                     </Button>
                   )}
                   <Button

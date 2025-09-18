@@ -1,5 +1,6 @@
 {
   "header": {
+    "name": "Martin Horváth",
     "experience": "Experience",
     "projects": "Projects",
     "skills": "Skills",
@@ -11,5 +12,40 @@
     "description": "Full Stack Developer specializing in building intuitive React frontends and robust, Node.js-based backend systems. My expertise includes designing REST APIs with Express.js, managing databases with Prisma and PostgreSQL, and ensuring application-wide robustness with TypeScript. I am committed to writing clean code and efficiently solving complex problems.",
     "github_button": "GitHub",
     "contact_button": "Contact"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "live_button": "Live Version",
+    "github_button": "GitHub",
+    "image_placeholder": "Project Image",
+    "image_alt": "{{title}} project image",
+    "project_list": [
+      {
+        "key": "pawmap",
+        "title": "PawMap",
+        "description": "PawMap is a comprehensive Full Stack web application that leverages modern technologies like React and Node.js to create an interactive, map-based interface. The project's goal is to provide a central platform for pet owners to discover and share pet-friendly locations.",
+        "tags": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "liveUrl": "https://pawmap.eu",
+        "githubUrl": "https://github.com/horvathmartin97",
+        "imageKey": "pawmapImage"
+      },
+      {
+        "key": "silverarrow",
+        "title": "Silver Arrow Car",
+        "description": "For Silver Arrow Car Ltd., I created a dynamic digital showroom that transforms car buying into an experience. On the platform, prospective buyers can not only view and filter cars but also create a 'virtual garage.' The project is a Full Stack solution, complemented by an administrative system with full CRUD operations, giving operators complete control.",
+        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+        "liveUrl": null,
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
+        "imageKey": "silverArrowImage"
+      }
+    ]
   }
 }
