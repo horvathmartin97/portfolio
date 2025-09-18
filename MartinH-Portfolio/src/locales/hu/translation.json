@@ -46,5 +46,54 @@
         "imageKey": "silverArrowImage"
       }
     ]
+  },
+  "experience": {
+    "title": "Szakmai Tapasztalat",
+    "role": "Full Stack Fejlesztő (Záróprojekt)",
+    "company": "Progmatic Academy",
+    "duration": "2025. július - 2025. szeptember",
+    "description": [
+      "Egy 3 fős agilis csapat tagjaként egy teljes értékű webalkalmazást fejlesztettünk a tervezéstől az élesítésig.",
+      "Önállóan én feleltem az Event és Comment modulok teljes backendjének megtervezéséért és implementálásáért Node.js és Express.js használatával.",
+      "Kialakítottam a REST API végpontokat, és egy robusztus keresési, valamint szűrési funkcionalitást implementáltam a hatékony adatlekérdezés érdekében.",
+      "A frontend oldalon én fejlesztettem a felhasználó-specifikus 'Saját Helyszíneim' és 'Saját Eseményeim' oldalakat, biztosítva, hogy mindenki csak a saját adatait tudja módosítani és törölni (CRUD).",
+      "A projekt kulcsfontosságú UI komponenseiért feleltem, beleértve a teljes, reszponzív Header-t és az Eseménylétrehozó oldalt is.",
+      "Aktívan részt vettem a közös kódellenőrzési (code review) folyamatokban, és a csapatmunkához a Git-et és a JIRA-t használtuk."
+    ]
+  },
+  "skills": {
+    "title": "Készségek és Technológiák",
+    "technical_skills": "Technikai Készségek",
+    "personal_competencies": "Személyes Kompetenciák",
+    "technicalSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "soft_skills": [
+      "Problémamegoldás",
+      "Kommunikáció",
+      "Csapatmunka",
+      "Alkalmazkodóképesség",
+      "Időgazdálkodás",
+      "Kritikus gondolkodás",
+      "Kreativitás",
+      "Tanulási hajlandóság",
+      "Részletekre való odafigyelés",
+      "Vezetői képességek",
+      "Empátia"
+    ]
+  },
+  "contact": {
+    "title": "Lépj Kapcsolatba Velem",
+    "description": "Nyitott vagyok új lehetőségekre és együttműködésekre. Ha szeretnél kapcsolatba lépni velem, kérlek, használd az alábbi elérhetőségeket."
   }
 }

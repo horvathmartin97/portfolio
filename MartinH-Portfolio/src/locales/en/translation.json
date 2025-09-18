@@ -47,5 +47,54 @@
         "imageKey": "silverArrowImage"
       }
     ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "role": "Full Stack Developer (Final Project)",
+    "company": "Progmatic Academy",
+    "duration": "July 2025 - September 2025",
+    "description": [
+      "As a member of a 3-person agile team, we developed a full-fledged web application from planning to deployment.",
+      "I was independently responsible for designing and implementing the entire backend for the Event and Comment modules using Node.js and Express.js.",
+      "I developed the REST API endpoints and implemented a robust search and filtering functionality to ensure efficient data retrieval.",
+      "On the frontend, I developed the user-specific 'My Locations' and 'My Events' pages, ensuring that each user could only modify and delete their own data (CRUD).",
+      "I was responsible for key UI components of the project, including the fully responsive Header and the Event Creation page.",
+      "I actively participated in code review processes, and we used Git and JIRA for teamwork."
+    ]
+  },
+  "skills": {
+    "title": "Skills and Technologies",
+    "technical_skills": "Technical Skills",
+    "personal_competencies": " Personal Competencies",
+    "technicalSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Adaptability",
+      "Agile Methodologies",
+      "Time Management",
+      "Resilience",
+      "Flexibility",
+      "Continuous Learning",
+      "Critical Thinking",
+      "Leadership"
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "I'm currently open to new opportunities and collaborations. Whether you have a project in mind, want to discuss potential roles, or just want to connect, feel free to reach out. You can contact me via email or find me on various social media platforms."
   }
 }

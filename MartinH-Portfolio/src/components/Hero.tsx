@@ -5,6 +5,7 @@ export default function Hero() {
   const myName = t("hero.name");
   const heroTitle = t("hero.title");
   const heroDescription = t("hero.description");
+  const contactButtonText = t("hero.contact_button");
   return (
     <section id="hero" className="w-full text-white py-20 bg-gray-800 md:py-32">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
@@ -29,7 +30,7 @@ export default function Hero() {
               href="#contact"
               className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105"
             >
-              Kapcsolat
+              {contactButtonText}
             </a>
           </div>
         </div>

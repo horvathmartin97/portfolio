@@ -1,0 +1,99 @@
+{
+  "header": {
+    "name": "Martin Horváth",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Martin Horváth",
+    "title": "Full-Stack-Webentwickler",
+    "description": "Full-Stack-Entwickler, spezialisiert auf die Erstellung intuitiver React-Frontends und robuster, Node.js-basierter Backend-Systeme. Meine Expertise umfasst die Gestaltung von REST-APIs mit Express.js, die Verwaltung von Datenbanken mit Prisma und PostgreSQL sowie die Gewährleistung der Anwendungsstabilität mit TypeScript. Ich lege Wert auf sauberen Code und die effiziente Lösung komplexer Probleme.",
+    "github_button": "GitHub",
+    "contact_button": "Kontakt"
+  },
+  "projects": {
+    "title": "Projekte",
+    "live_button": "Live-Version",
+    "github_button": "GitHub",
+    "image_placeholder": "Projektbild",
+    "image_alt": "Projektbild von {{title}}",
+    "project_list": [
+      {
+        "key": "pawmap",
+        "title": "PawMap",
+        "description": "PawMap ist eine umfassende Full-Stack-Webanwendung, die moderne Technologien wie React und Node.js nutzt, um eine interaktive, kartenbasierte Oberfläche zu schaffen. Ziel des Projekts ist es, eine zentrale Plattform für Haustierbesitzer zum Entdecken und Teilen von haustierfreundlichen Orten bereitzustellen.",
+        "tags": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "liveUrl": "https://pawmap.eu",
+        "githubUrl": "https://github.com/horvathmartin97",
+        "imageKey": "pawmapImage"
+      },
+      {
+        "key": "silverarrow",
+        "title": "Silver Arrow Car",
+        "description": "Für die Silver Arrow Car GmbH habe ich einen dynamischen digitalen Showroom geschaffen, der den Autokauf zu einem Erlebnis macht. Auf der Plattform können Interessenten nicht nur Autos ansehen und filtern, sondern auch eine 'virtuelle Garage' erstellen. Das Projekt ist eine Full-Stack-Lösung, die durch ein Verwaltungssystem mit vollen CRUD-Operationen ergänzt wird und den Betreibern die volle Kontrolle gibt.",
+        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+        "liveUrl": null,
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
+        "imageKey": "silverArrowImage"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "role": "Full-Stack-Entwickler (Abschlussprojekt)",
+    "company": "Progmatic Academy",
+    "duration": "Juli 2025 - September 2025",
+    "description": [
+      "Als Mitglied eines 3-köpfigen agilen Teams haben wir eine vollwertige Webanwendung von der Planung bis zur Bereitstellung entwickelt.",
+      "Ich war eigenständig für die Konzeption und Implementierung des gesamten Backends für die Module 'Event' und 'Comment' mit Node.js und Express.js verantwortlich.",
+      "Ich habe die REST-API-Endpunkte entwickelt und eine robuste Such- und Filterfunktion implementiert, um eine effiziente Datenabfrage zu gewährleisten.",
+      "Im Frontend habe ich die benutzerspezifischen Seiten 'Meine Standorte' und 'Meine Veranstaltungen' entwickelt, um sicherzustellen, dass jeder Benutzer nur seine eigenen Daten bearbeiten und löschen kann (CRUD).",
+      "Ich war für wichtige UI-Komponenten des Projekts verantwortlich, einschließlich des vollständig responsiven Headers und der Seite zur Erstellung von Veranstaltungen.",
+      "Ich habe aktiv an Code-Review-Prozessen teilgenommen, und wir haben Git und JIRA für die Teamarbeit genutzt."
+    ]
+  },
+  "skills": {
+    "title": "Fähigkeiten und Technologien",
+    "technical_skills": "Technische Fähigkeiten",
+    "personal_competencies": "Persönliche Kompetenzen",
+    "technicalSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "soft_skills": [
+      "Problemlösung",
+      "Kommunikation",
+      "Teamfähigkeit",
+      "Anpassungsfähigkeit",
+      "Agile Methoden",
+      "Zeitmanagement",
+      "Belastbarkeit",
+      "Flexibilität",
+      "Kontinuierliches Lernen",
+      "Kritisches Denken",
+      "Führungsqualitäten"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "description": "Ich bin derzeit offen für neue Möglichkeiten und Kooperationen. Ob Sie ein Projekt im Sinn haben, potenzielle Stellen besprechen oder einfach nur in Kontakt treten möchten, zögern Sie nicht, sich zu melden. Sie können mich per E-Mail erreichen oder mich auf verschiedenen sozialen Medienplattformen finden."
+  }
+}

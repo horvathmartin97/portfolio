@@ -28,7 +28,6 @@ export default function Header() {
           </a>
         ))}
       </nav>
-
       <LanguageSwitcher />
     </header>
   );

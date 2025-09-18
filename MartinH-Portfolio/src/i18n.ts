@@ -1,10 +1,8 @@
-// src/i18n.ts
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-
-// Importáljuk a fordítási fájlokat
 import translationEN from "./locales/en/translation.json";
 import translationHU from "./locales/hu/translation.json";
+import translationDE from "./locales/de/translation.json";
 
 const resources = {
   en: {
@@ -13,18 +11,17 @@ const resources = {
   hu: {
     translation: translationHU,
   },
+  de: { translation: translationDE },
 };
 
-i18n
-  .use(initReactI18next) // Átadja az i18n példányt a react-i18next-nek
-  .init({
-    resources,
-    lng: "hu", // Alapértelmezett nyelv
-    fallbackLng: "hu", // Tartalék nyelv, ha a választott nem elérhető
+i18n.use(initReactI18next).init({
+  resources,
+  lng: "hu",
+  fallbackLng: "en",
 
-    interpolation: {
-      escapeValue: false, // React már véd az XSS támadások ellen
-    },
-  });
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 export default i18n;
