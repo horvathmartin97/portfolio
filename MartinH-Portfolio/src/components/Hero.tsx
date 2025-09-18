@@ -1,11 +1,15 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { useTranslation } from "react-i18next";
+import itsme from "../assets/itsme.jpeg";
+
 export default function Hero() {
   const { t } = useTranslation();
+
   const myName = t("hero.name");
   const heroTitle = t("hero.title");
   const heroDescription = t("hero.description");
   const contactButtonText = t("hero.contact_button");
+
   return (
     <section id="hero" className="w-full text-white py-20 bg-gray-800 md:py-32">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
@@ -38,16 +42,12 @@ export default function Hero() {
         <div className="md:w-1/3 flex justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
             <div className="w-full h-full bg-gray-600 flex items-center justify-center text-gray-400 text-xl">
-              Kép
+              <img
+                src={itsme}
+                alt="Horváth Martin profilképe"
+                className="w-full h-full object-cover"
+              />
             </div>
-
-            {/* 
-            <img 
-              src={profileImage} 
-              alt="Horváth Martin profilképe" 
-              className="w-full h-full object-cover" // object-cover biztosítja, hogy a kép torzítás nélkül töltse ki a kört
-            /> 
-            */}
           </div>
         </div>
       </div>
