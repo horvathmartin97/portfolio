@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import pawmapImage from "../assets/pawmap.png";
 import { useTranslation } from "react-i18next";
+import silverCar from "../assets/silverCar.png";
 
 interface Projects {
   key: string;
@@ -15,7 +16,7 @@ interface Projects {
 }
 const projectImages: { [key: string]: string } = {
   pawmapImage: pawmapImage,
-  silverArrowImage: "",
+  silverArrowImage: silverCar,
 };
 export default function Projects() {
   const { t } = useTranslation();

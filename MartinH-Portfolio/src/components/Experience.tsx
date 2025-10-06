@@ -24,9 +24,6 @@ export default function Experience() {
                 {t("experience.company")}
               </p>
             </div>
-            <p className="text-sm text-gray-400 mt-2 sm:mt-0 bg-gray-600 px-3 py-1 rounded-full">
-              {t("experience.duration")}
-            </p>
           </div>
 
           <ul className="list-disc  text-gray-300 space-y-3">
