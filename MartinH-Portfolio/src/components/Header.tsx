@@ -12,7 +12,7 @@ export default function Header() {
   ];
   const navName = t("header.name");
   return (
-    <header className="flex justify-between items-center p-4 border-b border-gray-700 bg-gray-900 text-white">
+    <header className="flex justify-between items-center top-0 sticky p-4 border-b border-gray-700 bg-gray-900 text-white">
       <a href="#hero" className="text-xl font-bold">
         {navName}
       </a>

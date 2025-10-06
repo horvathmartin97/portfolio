@@ -11,8 +11,11 @@ export default function Hero() {
   const contactButtonText = t("hero.contact_button");
 
   return (
-    <section id="hero" className="w-full text-white py-20 bg-gray-800 md:py-32">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
+    <section
+      id="hero"
+      className="w-full text-white py-20 bg-gray-800 md:py-32 h-200 "
+    >
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4 ">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             {myName}
