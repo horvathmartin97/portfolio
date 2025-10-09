@@ -23,7 +23,7 @@ This will start the project in development mode.
 
 npm run build
 
-The production-ready build will be available in the `dist` folder. Netlify automatically deploys from this directory (see `netlify.toml` for configuration)[files:4].
+The production-ready build will be available in the `dist` folder. Netlify automatically deploys from this directory (see `netlify.toml` for configuration).
 
 ## Scripts
 
@@ -47,9 +47,9 @@ The production-ready build will be available in the `dist` folder. Netlify autom
 
 ## Configuration Files
 
-- `eslint.config.js` – recommended lint settings[files:7]
-- `netlify.toml` – Netlify deployment configuration[files:4]
-- `package.json` – main scripts and dependencies[files:6]
+- `eslint.config.js` – recommended lint settings
+- `netlify.toml` – Netlify deployment configuration
+- `package.json` – main scripts and dependencies
 
 ## License
 
