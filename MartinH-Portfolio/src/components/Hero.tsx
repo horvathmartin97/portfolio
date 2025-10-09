@@ -1,6 +1,6 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { useTranslation } from "react-i18next";
-import itsme from "../assets/itsme.jpeg";
+import thatsme from "../assets/thatsme.jpeg";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
             <div className="w-full h-full bg-gray-600 flex items-center justify-center text-gray-400 text-xl">
               <img
-                src={itsme}
+                src={thatsme}
                 alt="Horváth Martin profilképe"
                 className="w-full h-full object-cover"
               />
