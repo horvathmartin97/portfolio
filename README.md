@@ -6,7 +6,7 @@ A modern personal portfolio website built with React, TypeScript, and Vite. The 
 
 - Fast development workflow with Vite
 - React 19 + TypeScript
-- Material UI and TailwindCSS for design
+- TailwindCSS for design
 - i18next translation support
 - ESLint integration
 - Netlify deployment
