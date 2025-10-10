@@ -9,7 +9,7 @@
   "hero": {
     "name": "Martin Horváth",
     "title": "Full Stack Web Developer",
-    "description": "Full Stack Developer specializing in building intuitive React frontends and robust, Node.js-based backend systems. My expertise includes designing REST APIs with Express.js, managing databases with Prisma and PostgreSQL, and ensuring application-wide robustness with TypeScript. I am committed to writing clean code and efficiently solving complex problems.",
+    "description": "I’m a Full Stack Developer specializing in crafting intuitive React frontends and robust Node.js backend systems. I excel in designing REST APIs with Express.js, managing databases using Prisma and PostgreSQL, and enhancing application reliability through TypeScript. Passionate about clean code and efficient problem-solving, I strive to build scalable and maintainable solutions. Feel free to explore my projects below or get in touch to discuss how I can help your next project succeed.",
     "github_button": "GitHub",
     "contact_button": "Contact"
   },
