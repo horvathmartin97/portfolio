@@ -9,7 +9,7 @@
   "hero": {
     "name": "Horváth Martin",
     "title": "Full Stack Webfejlesztő",
-    "description": "Full Stack Fejlesztő, aki intuitív React felületeket és stabil, Node.js alapú backend rendszereket épít. Szakértelmem kiterjed REST API-k tervezésére Express.js segítségével, adatbázis-kezelésre Prismával és PostgreSQL-lel, valamint a teljes alkalmazás robusztussá tételére TypeScripttel. Célom a tiszta kód írása és a komplex problémák hatékony megoldása.",
+    "description": "Szenvedélyem a korszerű, felhasználóbarát webes alkalmazások fejlesztése. Full Stack fejlesztőként intuitív React frontendet és megbízható, skálázható Node.js alapú backendet építek. Gyakorlatom van REST API-k tervezésében (Express.js), adatkezelésben Prisma és PostgreSQL segítségével, valamint alkalmazások robusztusabbá tételében TypeScript-tel. Szeretem bonyolult problémákat egyszerű, átlátható megoldásokká formálni, miközben nagy hangsúlyt fektetek a tiszta kódra és a folyamatos fejlődésre.",
     "github_button": "GitHub",
     "contact_button": "Kapcsolat"
   },
