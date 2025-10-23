@@ -29,7 +29,7 @@ export default function Contact() {
     {
       icon: <LinkedInIcon sx={{ fontSize: 30 }} />,
       text: "LinkedIn",
-      href: "www.linkedin.com/in/martin-horváth-069487363",
+      href: "https://www.linkedin.com/in/martin-horváth-069487363",
       ariaLabel: t("contact.linkedin_aria_label"),
     },
   ];
