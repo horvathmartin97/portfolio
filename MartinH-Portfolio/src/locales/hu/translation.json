@@ -40,7 +40,14 @@
         "key": "silverarrow",
         "title": "Silver Arrow Car",
         "description": "A Silver Arrow Car Kft. számára egy dinamikus digitális bemutatótermet hoztam létre, ahol az autóvásárlás élménnyé válik. A platformon az érdeklődők nemcsak megtekinthetik és szűrhetik az autókat, hanem egy 'virtuális garázst' is létrehozhatnak. A projekt egy Full Stack megoldás, teljes CRUD-műveleteket támogató adminisztrációs rendszer egészíti ki, teljes kontrollt adva az üzemeltetők kezébe.",
-        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+        "tags": [
+          "React",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Express.js"
+        ],
         "liveUrl": null,
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
         "imageKey": "silverArrowImage"

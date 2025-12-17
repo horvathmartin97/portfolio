@@ -40,7 +40,14 @@
         "key": "silverarrow",
         "title": "Silver Arrow Car",
         "description": "Für die Silver Arrow Car GmbH habe ich einen dynamischen digitalen Showroom geschaffen, der den Autokauf zu einem Erlebnis macht. Auf der Plattform können Interessenten nicht nur Autos ansehen und filtern, sondern auch eine 'virtuelle Garage' erstellen. Das Projekt ist eine Full-Stack-Lösung, die durch ein Verwaltungssystem mit vollen CRUD-Operationen ergänzt wird und den Betreibern die volle Kontrolle gibt.",
-        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+        "tags": [
+          "React",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Express.js"
+        ],
         "liveUrl": null,
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
         "imageKey": "silverArrowImage"
