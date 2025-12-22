@@ -51,6 +51,15 @@
         "liveUrl": null,
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
         "imageKey": "silverArrowImage"
+      },
+      {
+        "key": "szakicosmetic",
+        "title": "Szaki autókozmetika",
+        "description": "Egy prémium autókozmetikai vállalkozás számára fejlesztett egyoldalas, teljesen reszponzív marketingoldal React és TypeScript alapokon. A projekt kétnyelvű (HU/DE) felületet, Tailwind CSS‑re épülő modern UI‑t, Framer Motion animációkat, autónként csoportosított képgalériát és Google Maps‑szel integrált kapcsolat szekciót tartalmaz. A teljes megvalósítást – architektúra, komponensek, többnyelvűség, deployment – önállóan végeztem.",
+        "liveUrl": "https://szakiautokozmetika.hu",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/szakicarcosmetic",
+        "imageKey": "szakicosmteicImage",
+        "tags": ["React", "Tailwind CSS", "TypeScript", "i18n", "FramerMotion"]
       }
     ]
   },

@@ -4,6 +4,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import pawmapImage from "../assets/pawmap.png";
 import { useTranslation } from "react-i18next";
 import silverCar from "../assets/silverCar.png";
+import szakicosmteic from "../assets/szakiCosmetic.png";
 
 interface Projects {
   key: string;
@@ -17,6 +18,7 @@ interface Projects {
 const projectImages: { [key: string]: string } = {
   pawmapImage: pawmapImage,
   silverArrowImage: silverCar,
+  szakicosmteicImage: szakicosmteic,
 };
 export default function Projects() {
   const { t } = useTranslation();
