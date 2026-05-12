@@ -5,10 +5,6 @@ export default function GitHubActivity() {
   const { t } = useTranslation();
   const username = "horvathmartin97";
 
-  const theme = "transparent&hide_border=true&bg_color=00000000";
-  const colors =
-    "title_color=38bdf8&text_color=e2e8f0&icon_color=38bdf8&label_color=94a3b8";
-
   return (
     <section
       id="github"
