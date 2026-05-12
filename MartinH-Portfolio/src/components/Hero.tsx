@@ -1,55 +1,64 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { FaGithub } from "react-icons/fa";
+import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import thatsme from "../assets/thatsme.jpeg";
 
 export default function Hero() {
   const { t } = useTranslation();
 
-  const myName = t("hero.name");
-  const heroTitle = t("hero.title");
-  const heroDescription = t("hero.description");
-  const contactButtonText = t("hero.contact_button");
-
   return (
     <section
       id="hero"
-      className="w-full text-white py-20 bg-gray-800 md:py-32 h-200 "
+      className="relative overflow-hidden bg-slate-950 text-white"
     >
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4 ">
-        <div className="text-center md:text-left md:w-1/2">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            {myName}
-          </h1>
-          <p className="text-xl md:text-2xl text-blue-300 mt-2 mb-6">
-            {heroTitle}
-          </p>
-          <p className="max-w-xl text-gray-300">{heroDescription}</p>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.18),transparent_28%),radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.12),transparent_30%)]" />
 
-          <div className="mt-8 flex justify-center md:justify-start gap-4">
-            <a
-              href="https://github.com/horvathmartin97"
-              target="_blank"
-              className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-3 flex px-6 rounded-lg transition-transform transform hover:scale-105"
-            >
-              Github <GitHubIcon className="ml-2" />
-            </a>
-            <a
-              href="#contact"
-              className="bg-gray-700 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105"
-            >
-              {contactButtonText}
-            </a>
+      <div className="relative container mx-auto px-6 py-24 md:py-32">
+        <div className="grid items-center gap-14 md:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <p className="mb-4 inline-flex rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-sm font-medium text-sky-300">
+              React · TypeScript · Node.js · PostgreSQL
+            </p>
+
+            <h1 className="max-w-3xl text-5xl font-bold leading-tight md:text-7xl">
+              {t("hero.name")}
+            </h1>
+
+            <p className="mt-4 text-xl font-semibold text-sky-300 md:text-2xl">
+              {t("hero.title")}
+            </p>
+
+            <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
+              {t("hero.description")}
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 rounded-xl bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-sky-400"
+              >
+                {t("header.projects")} <ArrowRight size={18} />
+              </a>
+
+              <a
+                href="https://github.com/horvathmartin97"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+              >
+                {t("hero.github_button")} <FaGithub size={18} />
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div className="md:w-1/3 flex justify-center">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
-            <div className="w-full h-full bg-gray-600 flex items-center justify-center text-gray-400 text-xl">
+          <div className="flex justify-center md:justify-end">
+            <div className="relative h-72 w-72 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl shadow-sky-500/10 md:h-96 md:w-80">
               <img
                 src={thatsme}
-                alt="Horváth Martin profilképe"
-                className="w-full h-full object-cover"
+                alt={t("hero.name")}
+                className="h-full w-full object-cover"
               />
+              <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
             </div>
           </div>
         </div>

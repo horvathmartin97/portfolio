@@ -60,6 +60,23 @@
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/szakicarcosmetic",
         "imageKey": "szakicosmteicImage",
         "tags": ["React", "Tailwind CSS", "TypeScript", "i18n", "FramerMotion"]
+      },
+      {
+        "key": "cartly",
+        "title": "Cartly",
+        "description": "Cartly egy teljes körű, valós idejű bevásárlólista alkalmazás, ahol a felhasználók regisztrálhatnak, bejelentkezhetnek, és kezelhetik saját listáikat. A projekt JWT-alapú autentikációt, REST API-t és Prisma ORM-et használ PostgreSQL adatbázissal. A frontend Netlify-on, a backend Render.com-on fut éles környezetben.",
+        "liveUrl": "https://cartlyy.netlify.app",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/Cartly",
+        "imageKey": "cartlyImage",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "Prisma",
+          "PostgreSQL"
+        ]
       }
     ]
   },

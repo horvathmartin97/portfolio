@@ -52,6 +52,32 @@
         "liveUrl": null,
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/silverArrowCar",
         "imageKey": "silverArrowImage"
+      },
+      {
+        "key": "szakicosmetic",
+        "title": "Szaki Car Cosmetics",
+        "description": "A fully responsive, single-page marketing website developed for a premium car cosmetics business, built with React and TypeScript. The project features a bilingual (HU/DE) interface, a modern UI built with Tailwind CSS, Framer Motion animations, a per-car image gallery, and a contact section integrated with Google Maps. The entire implementation — architecture, components, i18n, deployment — was completed independently.",
+        "liveUrl": "https://szakiautokozmetika.hu",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/szakicarcosmetic",
+        "imageKey": "szakicosmteicImage",
+        "tags": ["React", "Tailwind CSS", "TypeScript", "i18n", "Framer Motion"]
+      },
+      {
+        "key": "cartly",
+        "title": "Cartly",
+        "description": "Cartly is a full-stack shopping list application with user authentication. Users can register, log in, and manage their personal shopping lists. The project features JWT-based authentication, a REST API, and Prisma ORM with a PostgreSQL database. Deployed with the frontend on Netlify and the backend on Render.com.",
+        "liveUrl": "https://cartlyy.netlify.app",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/Cartly",
+        "imageKey": "cartlyImage",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "Prisma",
+          "PostgreSQL"
+        ]
       }
     ]
   },

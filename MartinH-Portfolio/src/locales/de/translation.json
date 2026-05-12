@@ -51,6 +51,32 @@
         "liveUrl": null,
         "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects",
         "imageKey": "silverArrowImage"
+      },
+      {
+        "key": "szakicosmetic",
+        "title": "Szaki Autoaufbereitung",
+        "description": "Eine vollständig responsive, einseitige Marketing-Website für ein Premium-Autoaufbereitungsunternehmen, entwickelt mit React und TypeScript. Das Projekt umfasst eine zweisprachige (HU/DE) Oberfläche, ein modernes UI mit Tailwind CSS, Framer Motion Animationen, eine fahrzeugspezifische Bildergalerie und einen Kontaktbereich mit Google Maps-Integration. Die gesamte Umsetzung – Architektur, Komponenten, Mehrsprachigkeit, Deployment – wurde eigenständig durchgeführt.",
+        "liveUrl": "https://szakiautokozmetika.hu",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/szakicarcosmetic",
+        "imageKey": "szakicosmteicImage",
+        "tags": ["React", "Tailwind CSS", "TypeScript", "i18n", "Framer Motion"]
+      },
+      {
+        "key": "cartly",
+        "title": "Cartly",
+        "description": "Cartly ist eine Full-Stack-Einkaufslisten-Anwendung mit Benutzerauthentifizierung. Benutzer können sich registrieren, einloggen und ihre persönlichen Einkaufslisten verwalten. Das Projekt verwendet JWT-basierte Authentifizierung, eine REST-API und Prisma ORM mit einer PostgreSQL-Datenbank. Das Frontend läuft auf Netlify, das Backend auf Render.com.",
+        "liveUrl": "https://cartlyy.netlify.app",
+        "githubUrl": "https://github.com/horvathmartin97/my-showcase-projects/tree/main/Cartly",
+        "imageKey": "cartlyImage",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "Prisma",
+          "PostgreSQL"
+        ]
       }
     ]
   },

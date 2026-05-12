@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Building2, Calendar } from "lucide-react";
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -8,28 +9,43 @@ export default function Experience() {
   }) as string[];
 
   return (
-    <section id="experience" className="w-full py-20 md:py-32 bg-gray-800">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-white">
-          {t("experience.title")}
-        </h2>
+    <section
+      id="experience"
+      className="w-full py-20 md:py-32 bg-slate-900 text-white"
+    >
+      <div className="container mx-auto px-6">
+        <div className="mb-12">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-sky-400 mb-2">
+            {t("experience.title")}
+          </p>
+          <h2 className="text-4xl font-bold text-white">
+            {t("experience.title")}
+          </h2>
+        </div>
 
-        <div className="max-w-4xl  bg-gray-700 rounded-xl shadow-2xl shadow-blue-500/10 p-8 md:p-10">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+        <div className="max-w-4xl rounded-2xl border border-white/10 bg-white/5 p-8 md:p-10 shadow-2xl shadow-black/30">
+          <div className="flex flex-col sm:flex-row justify-between items-start gap-4 mb-8">
             <div>
               <h3 className="text-2xl font-bold text-white">
                 {t("experience.role")}
               </h3>
-              <p className="text-lg font-medium text-blue-300">
-                {t("experience.company")}
-              </p>
+
+              <div className="flex items-center gap-2 mt-2">
+                <Building2 size={16} className="text-sky-400" />
+                <p className="text-base font-medium text-sky-400">
+                  {t("experience.company")}
+                </p>
+              </div>
             </div>
           </div>
 
-          <ul className="list-disc  text-gray-300 space-y-3">
+          <div className="border-t border-white/10 mb-8" />
+
+          <ul className="flex flex-col gap-4">
             {descriptionPoints.map((point, i) => (
-              <li key={i} className="leading-relaxed">
-                {point}
+              <li key={i} className="flex items-start gap-3">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-400" />
+                <p className="text-slate-300 leading-relaxed">{point}</p>
               </li>
             ))}
           </ul>
