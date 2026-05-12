@@ -11,7 +11,8 @@
     "title": "Full-Stack-Webentwickler",
     "description": "Full-Stack-Entwickler, spezialisiert auf die Erstellung intuitiver React-Frontends und robuster, Node.js-basierter Backend-Systeme. Meine Expertise umfasst die Gestaltung von REST-APIs mit Express.js, die Verwaltung von Datenbanken mit Prisma und PostgreSQL sowie die Gewährleistung der Anwendungsstabilität mit TypeScript. Ich lege Wert auf sauberen Code und die effiziente Lösung komplexer Probleme.",
     "github_button": "GitHub",
-    "contact_button": "Kontakt"
+    "contact_button": "Kontakt",
+    "cv_button": "Lebenslauf herunterladen"
   },
   "projects": {
     "title": "Projekte",

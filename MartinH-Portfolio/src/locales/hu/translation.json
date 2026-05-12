@@ -11,7 +11,8 @@
     "title": "Full Stack Webfejlesztő",
     "description": "Szenvedélyem a korszerű, felhasználóbarát webes alkalmazások fejlesztése. Full Stack fejlesztőként intuitív React frontendet és megbízható, skálázható Node.js alapú backendet építek. Gyakorlatom van REST API-k tervezésében (Express.js), adatkezelésben Prisma és PostgreSQL segítségével, valamint alkalmazások robusztusabbá tételében TypeScript-tel. Szeretem bonyolult problémákat egyszerű, átlátható megoldásokká formálni, miközben nagy hangsúlyt fektetek a tiszta kódra és a folyamatos fejlődésre.",
     "github_button": "GitHub",
-    "contact_button": "Kapcsolat"
+    "contact_button": "Kapcsolat",
+    "cv_button": "CV Letöltése"
   },
   "projects": {
     "title": "Projektek",
