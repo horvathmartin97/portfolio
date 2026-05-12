@@ -14,6 +14,17 @@
     "contact_button": "Kapcsolat",
     "cv_button": "CV Letöltése"
   },
+  "about": {
+    "label": "Rólam",
+    "title": "Egy kis bemutatkozás",
+    "paragraph1": "Gyerekkorom óta vonzott az informatika — mindig csodáltam azokat, akik billentyűzettel és gondolkodással maradandót tudnak alkotni. Végül magam is belevetettem ebbe a világba, és mára több saját, éles webalkalmazásom is fut az interneten.",
+    "paragraph2": "Mielőtt fejlesztő lettem, 5 évet töltöttem Ausztriában a vendéglátásban — ahol megtanultam, hogyan kell emberekkel hatékonyan kommunikálni, konfliktusokat kezelni és nyomás alatt is megőrizni a nyugalmat. Ezt a szemléletet viszem magammal a fejlesztésbe is.",
+    "paragraph3": "A Full Stack utat azért választottam, mert szeretem kézben tartani az egész folyamatot az első sor kódtól az éles deploymentig. Nyitott vagyok junior pozícióra csapatban és freelance együttműködésekre is — Magyarországon, Ausztriában és Németországban egyaránt.",
+    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
+    "highlight_deployed": "Éles projektek: Netlify, Render.com, egyedi domain",
+    "highlight_location": "Elérhető: Magyarország · Ausztria · Németország",
+    "languages": "Magyar (anyanyelv) · Angol (B2+) · Német (B2+)"
+  },
   "projects": {
     "title": "Projektek",
     "live_button": "Élő Verzió",
@@ -132,8 +143,16 @@
     "title": "Certifikátok",
     "view_cert": "Megtekintés"
   },
+  "github": {
+    "label": "Aktivitás",
+    "title": "GitHub",
+    "view_profile": "Profil megtekintése"
+  },
   "contact": {
     "title": "Lépj Kapcsolatba Velem",
     "description": "Nyitott vagyok új lehetőségekre és együttműködésekre. Ha szeretnél kapcsolatba lépni velem, kérlek, használd az alábbi elérhetőségeket."
+  },
+  "footer": {
+    "built_with": "Built with React, TypeScript & Tailwind CSS"
   }
 }

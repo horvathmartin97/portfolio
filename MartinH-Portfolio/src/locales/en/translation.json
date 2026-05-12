@@ -14,7 +14,17 @@
     "contact_button": "Contact",
     "cv_button": "Download CV"
   },
-
+  "about": {
+    "label": "About Me",
+    "title": "A little about myself",
+    "paragraph1": "I've been passionate about technology since childhood — always admiring those who could create something lasting with just a keyboard and their mind. I took the leap myself, and today I have several fully functional web applications live on the internet.",
+    "paragraph2": "Before becoming a developer, I spent 5 years working in hospitality in Austria, where I learned how to communicate effectively with people, handle challenges calmly, and stay composed under pressure. I bring that same mindset to my development work.",
+    "paragraph3": "I chose the Full Stack path because I love owning the entire process — from the first line of code to production deployment. I'm open to junior positions within a team as well as freelance opportunities, in Hungary, Austria, and Germany alike.",
+    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
+    "highlight_deployed": "Live projects: Netlify, Render.com, custom domains",
+    "highlight_location": "Available in: Hungary · Austria · Germany",
+    "languages": "Hungarian (native) · English (B2+) · German (B2+)"
+  },
   "projects": {
     "title": "Projects",
     "live_button": "Live Version",
@@ -133,8 +143,16 @@
     "title": "Certifications",
     "view_cert": "View Certificate"
   },
+  "github": {
+    "label": "Activity",
+    "title": "GitHub",
+    "view_profile": "View Profile"
+  },
   "contact": {
     "title": "Get in Touch",
     "description": "I'm currently open to new opportunities and collaborations. Whether you have a project in mind, want to discuss potential roles, or just want to connect, feel free to reach out. You can contact me via email or find me on various social media platforms."
+  },
+  "footer": {
+    "built_with": "Built with React, TypeScript & Tailwind CSS"
   }
 }

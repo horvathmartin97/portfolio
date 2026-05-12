@@ -14,6 +14,17 @@
     "contact_button": "Kontakt",
     "cv_button": "Lebenslauf herunterladen"
   },
+  "about": {
+    "label": "Über mich",
+    "title": "Ein bisschen über mich",
+    "paragraph1": "Seit meiner Kindheit begeistert mich die Informatik — ich bewunderte immer Menschen, die mit einer Tastatur und ihrem Verstand etwas Bleibendes schaffen können. Ich habe selbst den Sprung gewagt und habe heute mehrere vollwertige Webanwendungen live im Internet.",
+    "paragraph2": "Bevor ich Entwickler wurde, arbeitete ich 5 Jahre lang in der Gastronomie in Österreich. Dort lernte ich, effektiv mit Menschen zu kommunizieren, Probleme ruhig anzugehen und auch unter Druck einen kühlen Kopf zu bewahren. Diese Einstellung bringe ich auch in die Entwicklung mit.",
+    "paragraph3": "Ich habe den Full-Stack-Weg gewählt, weil ich den gesamten Prozess — vom ersten Code bis zum Deployment — gerne in der Hand halte. Ich bin offen für Junior-Positionen im Team sowie für Freelance-Projekte in Ungarn, Österreich und Deutschland.",
+    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
+    "highlight_deployed": "Live-Projekte: Netlify, Render.com, eigene Domains",
+    "highlight_location": "Verfügbar in: Ungarn · Österreich · Deutschland",
+    "languages": "Ungarisch (Muttersprache) · Englisch (B2+) · Deutsch (B2+)"
+  },
   "projects": {
     "title": "Projekte",
     "live_button": "Live-Version",
@@ -132,8 +143,16 @@
     "title": "Zertifikate",
     "view_cert": "Zertifikat ansehen"
   },
+  "github": {
+    "label": "Aktivität",
+    "title": "GitHub",
+    "view_profile": "Profil ansehen"
+  },
   "contact": {
     "title": "Kontakt aufnehmen",
     "description": "Ich bin derzeit offen für neue Möglichkeiten und Kooperationen. Ob Sie ein Projekt im Sinn haben, potenzielle Stellen besprechen oder einfach nur in Kontakt treten möchten, zögern Sie nicht, sich zu melden. Sie können mich per E-Mail erreichen oder mich auf verschiedenen sozialen Medienplattformen finden."
+  },
+  "footer": {
+    "built_with": "Built with React, TypeScript & Tailwind CSS"
   }
 }

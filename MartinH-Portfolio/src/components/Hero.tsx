@@ -23,7 +23,6 @@ export default function Hero() {
 
       <div className="relative container mx-auto px-6 py-24 md:py-32">
         <div className="grid items-center gap-14 md:grid-cols-[1.2fr_0.8fr]">
-          {/* Bal oldal — szöveg */}
           <div>
             <p className="mb-4 inline-flex rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-sm font-medium text-sky-300">
               React · TypeScript · Node.js · PostgreSQL
@@ -41,7 +40,6 @@ export default function Hero() {
               {t("hero.description")}
             </p>
 
-            {/* Gombok */}
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
@@ -69,7 +67,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Jobb oldal — profilkép */}
           <div className="flex justify-center md:justify-end">
             <div className="relative h-72 w-72 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl shadow-sky-500/10 md:h-96 md:w-80">
               <img
