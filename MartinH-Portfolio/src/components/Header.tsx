@@ -11,6 +11,7 @@ export default function Header() {
     { title: t("header.projects"), href: "#projects" },
     { title: t("header.experience"), href: "#experience" },
     { title: t("header.skills"), href: "#skills" },
+    { title: t("certifications.title"), href: "#certifications" },
     { title: t("header.contact"), href: "#contact" },
   ];
 

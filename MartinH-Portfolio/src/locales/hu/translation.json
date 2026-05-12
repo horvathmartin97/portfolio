@@ -126,6 +126,11 @@
       "Empátia"
     ]
   },
+  "certifications": {
+    "label": "Képesítések",
+    "title": "Certifikátok",
+    "view_cert": "Megtekintés"
+  },
   "contact": {
     "title": "Lépj Kapcsolatba Velem",
     "description": "Nyitott vagyok új lehetőségekre és együttműködésekre. Ha szeretnél kapcsolatba lépni velem, kérlek, használd az alábbi elérhetőségeket."

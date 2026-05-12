@@ -126,6 +126,11 @@
       "Führungsqualitäten"
     ]
   },
+  "certifications": {
+    "label": "Qualifikationen",
+    "title": "Zertifikate",
+    "view_cert": "Zertifikat ansehen"
+  },
   "contact": {
     "title": "Kontakt aufnehmen",
     "description": "Ich bin derzeit offen für neue Möglichkeiten und Kooperationen. Ob Sie ein Projekt im Sinn haben, potenzielle Stellen besprechen oder einfach nur in Kontakt treten möchten, zögern Sie nicht, sich zu melden. Sie können mich per E-Mail erreichen oder mich auf verschiedenen sozialen Medienplattformen finden."

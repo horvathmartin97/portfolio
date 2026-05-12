@@ -1,3 +1,4 @@
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
@@ -14,6 +15,7 @@ function App() {
         <Projects />
         <Experience />
         <Skills />
+        <Certifications />
         <Contact />
       </main>
     </>
