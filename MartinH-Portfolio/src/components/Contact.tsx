@@ -46,12 +46,12 @@ export default function Contact() {
           </div>
 
           <a
-            href="mailto:horvathmartinn@icloud.com"
+            href="mailto:martin@martinhorvath.dev"
             aria-label={t("contact.email_aria_label")}
             className="inline-flex items-center gap-3 bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-6 py-3 rounded-xl transition-all mb-8"
           >
             <Mail size={20} />
-            horvathmartinn@icloud.com
+            martin@martinhorvath.dev
           </a>
 
           <div className="border-t border-white/10 mb-8" />
