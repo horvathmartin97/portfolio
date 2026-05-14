@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="w-full bg-slate-950 border-t border-white/10 text-slate-400 py-8">
       <div className="container mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
         <p>
-          © {year} Horváth Martin · {t("footer.built_with")}
+          © {year} Martin Horváth · {t("footer.built_with")}
         </p>
 
         <div className="flex items-center gap-4">
