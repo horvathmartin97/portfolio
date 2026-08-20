@@ -1,5 +1,4 @@
-import { ArrowRight, Download } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
+import { ArrowRight, Download, FolderGit2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import thatsme from "../assets/thatsme.jpeg";
 import cvEn from "../assets/mHCvEng.pdf";
@@ -25,7 +24,7 @@ export default function Hero() {
         <div className="grid items-center gap-14 md:grid-cols-[1.2fr_0.8fr]">
           <div>
             <p className="mb-4 inline-flex rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-sm font-medium text-sky-300">
-              React · TypeScript · Node.js · PostgreSQL
+              {t("hero.pill")}
             </p>
 
             <h1 className="max-w-3xl text-5xl font-bold leading-tight md:text-7xl">
@@ -42,19 +41,10 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="#projects"
+                href="#contact"
                 className="inline-flex items-center gap-2 rounded-xl bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-sky-400"
               >
-                {t("header.projects")} <ArrowRight size={18} />
-              </a>
-
-              <a
-                href="https://github.com/horvathmartin97"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-              >
-                {t("hero.github_button")} <FaGithub size={18} />
+                {t("hero.contact_button")} <ArrowRight size={18} />
               </a>
 
               <a
@@ -63,6 +53,13 @@ export default function Hero() {
                 className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
               >
                 {t("hero.cv_button")} <Download size={18} />
+              </a>
+
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+              >
+                {t("header.projects")} <FolderGit2 size={18} />
               </a>
             </div>
           </div>

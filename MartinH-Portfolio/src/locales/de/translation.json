@@ -8,25 +8,29 @@
   },
   "hero": {
     "name": "Martin Horváth",
-    "title": "Full-Stack-Webentwickler",
-    "description": "Full-Stack-Entwickler, spezialisiert auf die Erstellung intuitiver React-Frontends und robuster, Node.js-basierter Backend-Systeme. Meine Expertise umfasst die Gestaltung von REST-APIs mit Express.js, die Verwaltung von Datenbanken mit Prisma und PostgreSQL sowie die Gewährleistung der Anwendungsstabilität mit TypeScript. Ich lege Wert auf sauberen Code und die effiziente Lösung komplexer Probleme.",
+    "pill": "5+ Jahre Kundenservice · DE / EN fließend · + technisches Know-how",
+    "title": "Kundenservice & Auftragsabwicklung",
+    "description": "5+ Jahre direkter, mehrsprachiger Kundenkontakt in Österreich — von der internationalen Gästebetreuung im Hotel über den B2B-Fahrzeugvertrieb bis zum täglichen Kundenservice im großen Maßstab. Ich habe ein Beschwerdemanagement-Zertifikat und bleibe auch unter Druck ruhig und lösungsorientiert. Nebenbei habe ich mir Full-Stack-Entwicklung (React, Node.js, TypeScript) selbst beigebracht und mehrere Webanwendungen live gestellt — ein technischer Hintergrund, mit dem ich mich schnell in neue Systeme einarbeite und sicher mit IT-Teams kommuniziere.",
     "github_button": "GitHub",
-    "contact_button": "Kontakt",
+    "contact_button": "Kontakt aufnehmen",
     "cv_button": "Lebenslauf herunterladen"
   },
   "about": {
     "label": "Über mich",
     "title": "Ein bisschen über mich",
-    "paragraph1": "Seit meiner Kindheit begeistert mich die Informatik — ich bewunderte immer Menschen, die mit einer Tastatur und ihrem Verstand etwas Bleibendes schaffen können. Ich habe selbst den Sprung gewagt und habe heute mehrere vollwertige Webanwendungen live im Internet.",
-    "paragraph2": "Bevor ich Entwickler wurde, arbeitete ich 5 Jahre lang in der Gastronomie in Österreich. Dort lernte ich, effektiv mit Menschen zu kommunizieren, Probleme ruhig anzugehen und auch unter Druck einen kühlen Kopf zu bewahren. Diese Einstellung bringe ich auch in die Entwicklung mit.",
-    "paragraph3": "Ich habe den Full-Stack-Weg gewählt, weil ich den gesamten Prozess — vom ersten Code bis zum Deployment — gerne in der Hand halte. Ich bin offen für Junior-Positionen im Team sowie für Freelance-Projekte in Ungarn, Österreich und Deutschland.",
-    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
-    "highlight_deployed": "Live-Projekte: Netlify, Render.com, eigene Domains",
-    "highlight_location": "Verfügbar in: Ungarn · Österreich · Deutschland",
-    "languages": "Ungarisch (Muttersprache) · Englisch (B2+) · Deutsch (B2+)"
+    "paragraph1": "5 Jahre lang habe ich im Hotel RosentalerHof in Saalbach-Hinterglemm, Österreich, internationale Gäste täglich auf Deutsch und Englisch betreut — von ganz normalen Anliegen bis zu Beschwerden und schwierigen Situationen, die ich dank meines Beschwerdemanagement-Zertifikats professionell lösungsorientiert bearbeitet habe. 2023 wurde ich vom Tourismusverband als Protagonist für das offizielle Recruiting-Video ausgewählt.",
+    "paragraph2": "Anschließend war ich als Verkaufsberater bei Silver Arrow Car Kft. tätig: Kundenberatung, Dokumentenabwicklung und -nachverfolgung, im Schnitt 10–12 Fahrzeugverkäufe pro Monat. Aktuell arbeite ich im Kundenservice bei OMV und betreue dort täglich rund 250–320 Kund:innen aus einem wirklich internationalen Publikum.",
+    "paragraph3": "Nebenbei habe ich mir in meiner Freizeit Full-Stack-Entwicklung selbst beigebracht und mehrere Webanwendungen live gestellt (siehe unten) — diesen technischen Hintergrund nutze ich, um mich schnell in neue Systeme einzuarbeiten und sicher mit IT-Teams zu kommunizieren. Ich suche jetzt meine nächste Station im Kundenservice, in der Auftragsabwicklung oder im technischen Support in Wien.",
+    "highlight_experience": "5+ Jahre Kundenkontakt in Österreich",
+    "highlight_certificate": "Beschwerdemanagement-Zertifikat",
+    "highlight_location": "Sopron, Ungarn — Pendeldistanz Wien",
+    "languages": "Deutsch & Englisch verhandlungssicher (B2/C1) · Ungarisch Muttersprache"
   },
   "projects": {
     "title": "Projekte",
+    "heading": "Ausgewählte Projekte",
+    "subtitle": "Nebenbei entwickle ich eigene Webanwendungen — ein technischer Hintergrund, der mir hilft, mich schnell in neue Systeme einzuarbeiten und mit IT-Teams auf Augenhöhe zu kommunizieren.",
+    "featured_label": "Projekt",
     "live_button": "Live-Version",
     "github_button": "GitHub",
     "image_placeholder": "Projektbild",
@@ -51,7 +55,7 @@
       {
         "key": "silverarrow",
         "title": "Silver Arrow Car",
-        "description": "Für die Silver Arrow Car GmbH habe ich einen dynamischen digitalen Showroom geschaffen, der den Autokauf zu einem Erlebnis macht. Auf der Plattform können Interessenten nicht nur Autos ansehen und filtern, sondern auch eine 'virtuelle Garage' erstellen. Das Projekt ist eine Full-Stack-Lösung, die durch ein Verwaltungssystem mit vollen CRUD-Operationen ergänzt wird und den Betreibern die volle Kontrolle gibt.",
+        "description": "Für die Silver Arrow Car Kft. habe ich einen dynamischen digitalen Showroom geschaffen, der den Autokauf zu einem Erlebnis macht. Auf der Plattform können Interessenten nicht nur Autos ansehen und filtern, sondern auch eine 'virtuelle Garage' erstellen. Das Projekt ist eine Full-Stack-Lösung, die durch ein Verwaltungssystem mit vollen CRUD-Operationen ergänzt wird und den Betreibern die volle Kontrolle gibt.",
         "tags": [
           "React",
           "TypeScript",
@@ -94,16 +98,40 @@
   },
   "experience": {
     "title": "Berufserfahrung",
-    "role": "Full-Stack-Entwickler (Abschlussprojekt)",
-    "company": "Progmatic Academy",
-    "duration": "Juli 2025 - September 2025",
-    "description": [
-      "Als Mitglied eines 3-köpfigen agilen Teams haben wir eine vollwertige Webanwendung von der Planung bis zur Bereitstellung entwickelt.",
-      "Ich war eigenständig für die Konzeption und Implementierung des gesamten Backends für die Module 'Event' und 'Comment' mit Node.js und Express.js verantwortlich.",
-      "Ich habe die REST-API-Endpunkte entwickelt und eine robuste Such- und Filterfunktion implementiert, um eine effiziente Datenabfrage zu gewährleisten.",
-      "Im Frontend habe ich die benutzerspezifischen Seiten 'Meine Standorte' und 'Meine Veranstaltungen' entwickelt, um sicherzustellen, dass jeder Benutzer nur seine eigenen Daten bearbeiten und löschen kann (CRUD).",
-      "Ich war für wichtige UI-Komponenten des Projekts verantwortlich, einschließlich des vollständig responsiven Headers und der Seite zur Erstellung von Veranstaltungen.",
-      "Ich habe aktiv an Code-Review-Prozessen teilgenommen, und wir haben Git und JIRA für die Teamarbeit genutzt."
+    "entries": [
+      {
+        "role": "Kundenservice-Mitarbeiter",
+        "company": "OMV",
+        "duration": "2026 – heute",
+        "description": [
+          "Tägliche Betreuung von rund 250–320 Kund:innen (auf Basis der täglichen Kassenbon-Anzahl), stark frequentiertes, multinationales Publikum.",
+          "Freundliche, genaue und lösungsorientierte Kundenbetreuung in einem Umfeld mit hohem Kundenaufkommen.",
+          "Zuverlässiger Schichtdienst, einschließlich Abend- und Wochenenddiensten."
+        ]
+      },
+      {
+        "role": "Verkaufsberater",
+        "company": "Silver Arrow Car Kft.",
+        "duration": "Nov. 2024 – März 2026 · 1 Jahr 5 Monate",
+        "description": [
+          "Verkauf von Gebrauchtfahrzeugen, im Schnitt 10–12 Fahrzeuge pro Monat.",
+          "Kundenberatung zu Angeboten, Finanzierung und Versicherung (auf Maklerbasis).",
+          "Prüfung, Organisation und Nachverfolgung von Vertragsunterlagen bis zur Übergabe.",
+          "Parallel: Entwicklung einer internen digitalen Fahrzeugplattform (React, TypeScript, Node.js, PostgreSQL) inkl. kundenorientierter Fahrzeugsuche und Administrationsbereich."
+        ]
+      },
+      {
+        "role": "Oberkellner / Gästebetreuung",
+        "company": "Hotel RosentalerHof",
+        "duration": "2019 – 2024 · 5 Jahre",
+        "description": [
+          "Tägliche Betreuung internationaler Gäste auf Deutsch und Englisch in einem dynamischen Hotelbetrieb.",
+          "Professionelle, lösungsorientierte Bearbeitung von Gästewünschen, Beschwerden, Serviceproblemen und Eskalationen — vertieft durch eine Zusatzqualifikation im Beschwerdemanagement (Workshop „Gästeglück – richtig gutes Beschwerdemanagement“, 2023).",
+          "Warenbestellung, Wareneingang und laufende Abstimmung mit Küche, Rezeption und Housekeeping.",
+          "Führung und Diensteinteilung eines saisonalen Teams von 3–4 Mitarbeitenden.",
+          "2023 vom Tourismusverband Saalbach Hinterglemm als Protagonist für das offizielle Recruiting-Video „Komm ins Home of Lässig Team“ ausgewählt."
+        ]
+      }
     ]
   },
   "skills": {
@@ -125,23 +153,63 @@
       "Docker"
     ],
     "soft_skills": [
-      "Problemlösung",
+      "Kundenservice",
+      "Beschwerdemanagement",
+      "Konfliktlösung",
       "Kommunikation",
-      "Teamfähigkeit",
-      "Anpassungsfähigkeit",
-      "Agile Methoden",
-      "Zeitmanagement",
+      "Teamführung",
       "Belastbarkeit",
+      "Problemlösung",
+      "Zeitmanagement",
+      "Anpassungsfähigkeit",
       "Flexibilität",
-      "Kontinuierliches Lernen",
-      "Kritisches Denken",
-      "Führungsqualitäten"
+      "Kontinuierliches Lernen"
     ]
   },
   "certifications": {
     "label": "Qualifikationen",
     "title": "Zertifikate",
-    "view_cert": "Zertifikat ansehen"
+    "view_cert": "Zertifikat ansehen",
+    "entries": [
+      {
+        "assetKey": "beschwerdemanagement",
+        "title": "Gästeglück – richtig gutes Beschwerdemanagement",
+        "issuer": "Ute Zischinsky (Die Coach)",
+        "date": "2023",
+        "specialization": "Workshop: Beschwerdemanagement im Gästekontakt",
+        "skills": ["Beschwerdemanagement", "Deeskalation", "Gästekommunikation"]
+      },
+      {
+        "assetKey": "progmatic",
+        "title": "Junior Developer Kurs-Zertifikat",
+        "issuer": "Progmatic Academy",
+        "date": "2025",
+        "specialization": "Full-Stack-Spezialisierung",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Express",
+          "Git",
+          "Scrum",
+          "GitHub",
+          "Docker"
+        ]
+      },
+      {
+        "assetKey": "mayerfeld",
+        "title": "Frontend Developer Praktikum",
+        "issuer": "Mayerfeld Consulting",
+        "date": "2026",
+        "specialization": "Frontend-Entwicklung",
+        "skills": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
   "github": {
     "label": "Aktivität",

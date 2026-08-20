@@ -8,25 +8,29 @@
   },
   "hero": {
     "name": "Martin Horváth",
-    "title": "Full Stack Web Developer",
-    "description": "I’m a Full Stack Developer specializing in crafting intuitive React frontends and robust Node.js backend systems. I excel in designing REST APIs with Express.js, managing databases using Prisma and PostgreSQL, and enhancing application reliability through TypeScript. Passionate about clean code and efficient problem-solving, I strive to build scalable and maintainable solutions. Feel free to explore my projects below or get in touch to discuss how I can help your next project succeed.",
+    "pill": "5+ years in customer service · Fluent DE / EN · + technical know-how",
+    "title": "Customer Service & Order Processing",
+    "description": "5+ years of direct, multilingual customer contact in Austria — from international guest service in a hotel to B2B vehicle sales, and now daily customer service at scale. I hold a complaint management certificate and stay calm and solution-oriented under pressure. Alongside that, I've taught myself full-stack development (React, Node.js, TypeScript) and shipped several live web applications — a technical background I use to learn new systems fast and work confidently with IT teams.",
     "github_button": "GitHub",
-    "contact_button": "Contact",
+    "contact_button": "Get in Touch",
     "cv_button": "Download CV"
   },
   "about": {
     "label": "About Me",
     "title": "A little about myself",
-    "paragraph1": "I've been passionate about technology since childhood — always admiring those who could create something lasting with just a keyboard and their mind. I took the leap myself, and today I have several fully functional web applications live on the internet.",
-    "paragraph2": "Before becoming a developer, I spent 5 years working in hospitality in Austria, where I learned how to communicate effectively with people, handle challenges calmly, and stay composed under pressure. I bring that same mindset to my development work.",
-    "paragraph3": "I chose the Full Stack path because I love owning the entire process — from the first line of code to production deployment. I'm open to junior positions within a team as well as freelance opportunities, in Hungary, Austria, and Germany alike.",
-    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
-    "highlight_deployed": "Live projects: Netlify, Render.com, custom domains",
-    "highlight_location": "Available in: Hungary · Austria · Germany",
-    "languages": "Hungarian (native) · English (B2+) · German (B2+)"
+    "paragraph1": "For 5 years I worked at Hotel RosentalerHof in Saalbach-Hinterglemm, Austria, supporting international guests daily in German and English — handling everyday questions as well as complaints and difficult situations professionally, backed by a complaint management certificate. In 2023 I was selected by the local tourism board to star in their official recruitment video.",
+    "paragraph2": "I then worked as a Sales Advisor at Silver Arrow Car Kft., advising customers, handling documentation and follow-up, and averaging 10–12 vehicle sales a month. Today I'm in customer service at OMV, supporting around 250–320 customers a day from a truly international clientele.",
+    "paragraph3": "Alongside that, I've taught myself full-stack development in my own time and built several live web applications (see below) — a technical background I use to learn new systems quickly and communicate confidently with IT teams. I'm now looking for my next role in customer service, order processing, or technical support in Vienna.",
+    "highlight_experience": "5+ years of customer contact in Austria",
+    "highlight_certificate": "Complaint management certificate",
+    "highlight_location": "Sopron, Hungary — commuting distance to Vienna",
+    "languages": "Fluent German & English (Verhandlungssicher, B2/C1) · Native Hungarian"
   },
   "projects": {
     "title": "Projects",
+    "heading": "Selected Projects",
+    "subtitle": "Alongside my main work, I build my own web applications in my free time — a technical background that helps me learn new systems quickly and communicate confidently with IT teams.",
+    "featured_label": "Featured Project",
     "live_button": "Live Version",
     "github_button": "GitHub",
     "image_placeholder": "Project Image",
@@ -94,16 +98,40 @@
   },
   "experience": {
     "title": "Professional Experience",
-    "role": "Full Stack Developer (Final Project)",
-    "company": "Progmatic Academy",
-    "duration": "July 2025 - September 2025",
-    "description": [
-      "As a member of a 3-person agile team, we developed a full-fledged web application from planning to deployment.",
-      "I was independently responsible for designing and implementing the entire backend for the Event and Comment modules using Node.js and Express.js.",
-      "I developed the REST API endpoints and implemented a robust search and filtering functionality to ensure efficient data retrieval.",
-      "On the frontend, I developed the user-specific 'My Locations' and 'My Events' pages, ensuring that each user could only modify and delete their own data (CRUD).",
-      "I was responsible for key UI components of the project, including the fully responsive Header and the Event Creation page.",
-      "I actively participated in code review processes, and we used Git and JIRA for teamwork."
+    "entries": [
+      {
+        "role": "Customer Service Representative",
+        "company": "OMV",
+        "duration": "2026 – Present",
+        "description": [
+          "Daily support for roughly 250–320 customers (based on daily receipt counts), a high-traffic, multinational clientele.",
+          "Friendly, accurate, and solution-oriented customer service in a high-volume environment.",
+          "Reliable shift work, including evenings and weekends."
+        ]
+      },
+      {
+        "role": "Sales Advisor",
+        "company": "Silver Arrow Car Kft.",
+        "duration": "Nov 2024 – Mar 2026 · 1 year 5 months",
+        "description": [
+          "Sold used vehicles, averaging 10–12 cars per month.",
+          "Advised customers on offers, financing, and insurance (on a broker basis).",
+          "Reviewed, organized, and tracked contract documents through to handover.",
+          "In parallel: built an internal digital vehicle platform (React, TypeScript, Node.js, PostgreSQL) including a customer-facing vehicle search and an admin area."
+        ]
+      },
+      {
+        "role": "Guest Relations / Head Waiter",
+        "company": "Hotel RosentalerHof",
+        "duration": "2019 – 2024 · 5 years",
+        "description": [
+          "Supported international guests daily in German and English in a dynamic hotel operation.",
+          "Professionally and proactively resolved guest requests, complaints, service issues, and escalations — backed by a complaint management certificate (workshop “Gästeglück – richtig gutes Beschwerdemanagement”, 2023).",
+          "Handled supplier ordering, goods receiving, and ongoing coordination with the kitchen, reception, and housekeeping.",
+          "Led and scheduled a seasonal team of 3–4 staff.",
+          "Selected by the Saalbach Hinterglemm Tourism Board in 2023 to star in their official recruitment video “Komm ins Home of Lässig Team”."
+        ]
+      }
     ]
   },
   "skills": {
@@ -125,23 +153,63 @@
       "Docker"
     ],
     "soft_skills": [
-      "Problem Solving",
+      "Customer Service",
+      "Complaint Management",
+      "Conflict Resolution",
       "Communication",
-      "Teamwork",
-      "Adaptability",
-      "Agile Methodologies",
-      "Time Management",
+      "Team Leadership",
       "Resilience",
+      "Problem Solving",
+      "Time Management",
+      "Adaptability",
       "Flexibility",
-      "Continuous Learning",
-      "Critical Thinking",
-      "Leadership"
+      "Continuous Learning"
     ]
   },
   "certifications": {
     "label": "Qualifications",
     "title": "Certifications",
-    "view_cert": "View Certificate"
+    "view_cert": "View Certificate",
+    "entries": [
+      {
+        "assetKey": "beschwerdemanagement",
+        "title": "Gästeglück – richtig gutes Beschwerdemanagement",
+        "issuer": "Ute Zischinsky (Die Coach)",
+        "date": "2023",
+        "specialization": "Workshop: Complaint Management in Guest Service",
+        "skills": ["Complaint Management", "De-escalation", "Guest Communication"]
+      },
+      {
+        "assetKey": "progmatic",
+        "title": "Junior Developer Course Certificate",
+        "issuer": "Progmatic Academy",
+        "date": "2025",
+        "specialization": "Full Stack Specialization",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Express",
+          "Git",
+          "Scrum",
+          "GitHub",
+          "Docker"
+        ]
+      },
+      {
+        "assetKey": "mayerfeld",
+        "title": "Frontend Developer Practicum",
+        "issuer": "Mayerfeld Consulting",
+        "date": "2026",
+        "specialization": "Frontend Development",
+        "skills": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
   "github": {
     "label": "Activity",

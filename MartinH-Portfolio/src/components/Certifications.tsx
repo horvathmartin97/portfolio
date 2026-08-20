@@ -2,42 +2,29 @@ import { useTranslation } from "react-i18next";
 import { GraduationCap, ExternalLink } from "lucide-react";
 import progmaticCert from "../assets/progmaticCert.pdf";
 import mayerfeldCert from "../assets/mayerfeldCert.pdf";
+import beschwerdemanagementCert from "../assets/beschwerdemanagementCert.pdf";
+
+interface CertEntry {
+  assetKey: string;
+  title: string;
+  issuer: string;
+  date: string;
+  specialization: string;
+  skills: string[];
+}
+
+const certAssets: { [key: string]: string } = {
+  beschwerdemanagement: beschwerdemanagementCert,
+  progmatic: progmaticCert,
+  mayerfeld: mayerfeldCert,
+};
 
 export default function Certifications() {
   const { t } = useTranslation();
 
-  const certs = [
-    {
-      title: "Junior Developer Course Certificate",
-      issuer: "Progmatic Academy",
-      date: "2025",
-      specialization: "Full Stack Specialization",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "PostgreSQL",
-        "Prisma",
-        "Express",
-        "Git",
-        "Scrum",
-        "GitHub",
-        "Docker",
-      ],
-      pdfUrl: progmaticCert,
-    },
-    {
-      title: "Frontend Developer Practicum",
-      issuer: "Mayerfeld Consulting",
-      date: "2026",
-      specialization: "Frontend Development",
-      skills: ["HTML", "CSS", "JavaScript"],
-      pdfUrl: mayerfeldCert,
-    },
-  ];
+  const certs = t("certifications.entries", {
+    returnObjects: true,
+  }) as CertEntry[];
 
   return (
     <section
@@ -57,7 +44,7 @@ export default function Certifications() {
         <div className="flex flex-col gap-6 max-w-4xl">
           {certs.map((cert) => (
             <div
-              key={cert.title}
+              key={cert.assetKey}
               className="rounded-2xl border border-white/10 bg-white/5 p-8 shadow-xl shadow-black/20"
             >
               <div className="flex flex-col sm:flex-row items-start justify-between gap-4">
@@ -91,7 +78,7 @@ export default function Certifications() {
                 </div>
 
                 <a
-                  href={cert.pdfUrl}
+                  href={certAssets[cert.assetKey]}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border border-white/10 bg-white/5 hover:bg-white/10 hover:border-sky-500/30 text-slate-300 hover:text-white text-sm font-medium px-4 py-2 rounded-xl transition-all shrink-0"

@@ -8,25 +8,29 @@
   },
   "hero": {
     "name": "Horváth Martin",
-    "title": "Full Stack Webfejlesztő",
-    "description": "Szenvedélyem a korszerű, felhasználóbarát webes alkalmazások fejlesztése. Full Stack fejlesztőként intuitív React frontendet és megbízható, skálázható Node.js alapú backendet építek. Gyakorlatom van REST API-k tervezésében (Express.js), adatkezelésben Prisma és PostgreSQL segítségével, valamint alkalmazások robusztusabbá tételében TypeScript-tel. Szeretem bonyolult problémákat egyszerű, átlátható megoldásokká formálni, miközben nagy hangsúlyt fektetek a tiszta kódra és a folyamatos fejlődésre.",
+    "pill": "5+ év ügyfélszolgálat · DE / EN felsőfok · + technikai háttér",
+    "title": "Ügyfélszolgálat & Rendelésfeldolgozás",
+    "description": "5+ év közvetlen, többnyelvű ügyfélkapcsolat Ausztriában — nemzetközi vendégek kiszolgálásától egy hotelben a B2B autókereskedelmen át a napi szintű, nagy volumenű ügyfélszolgálatig. Panaszkezelési tanúsítvánnyal rendelkezem, és nyomás alatt is nyugodt, megoldásorientált maradok. Emellett önállóan megtanultam a full-stack fejlesztést (React, Node.js, TypeScript), és több éles webalkalmazást is fejlesztettem — ezt a technikai hátteret arra használom, hogy gyorsan beletanuljak új rendszerekbe, és magabiztosan kommunikáljak IT-csapatokkal.",
     "github_button": "GitHub",
-    "contact_button": "Kapcsolat",
+    "contact_button": "Kapcsolatfelvétel",
     "cv_button": "CV Letöltése"
   },
   "about": {
     "label": "Rólam",
     "title": "Egy kis bemutatkozás",
-    "paragraph1": "Gyerekkorom óta vonzott az informatika — mindig csodáltam azokat, akik billentyűzettel és gondolkodással maradandót tudnak alkotni. Végül magam is belevetettem ebbe a világba, és mára több saját, éles webalkalmazásom is fut az interneten.",
-    "paragraph2": "Mielőtt fejlesztő lettem, 5 évet töltöttem Ausztriában a vendéglátásban — ahol megtanultam, hogyan kell emberekkel hatékonyan kommunikálni, konfliktusokat kezelni és nyomás alatt is megőrizni a nyugalmat. Ezt a szemléletet viszem magammal a fejlesztésbe is.",
-    "paragraph3": "A Full Stack utat azért választottam, mert szeretem kézben tartani az egész folyamatot az első sor kódtól az éles deploymentig. Nyitott vagyok junior pozícióra csapatban és freelance együttműködésekre is — Magyarországon, Ausztriában és Németországban egyaránt.",
-    "highlight_fullstack": "Full Stack: React · Node.js · PostgreSQL · TypeScript",
-    "highlight_deployed": "Éles projektek: Netlify, Render.com, egyedi domain",
-    "highlight_location": "Elérhető: Magyarország · Ausztria · Németország",
-    "languages": "Magyar (anyanyelv) · Angol (B2+) · Német (B2+)"
+    "paragraph1": "5 éven át dolgoztam a Hotel RosentalerHofban, Saalbach-Hinterglemmben (Ausztria), ahol nemzetközi vendégeket szolgáltam ki naponta németül és angolul — a hétköznapi kérésektől a panaszokig és nehéz helyzetekig, amiket a panaszkezelési tanúsítványom birtokában profin, megoldásorientáltan kezeltem. 2023-ban a helyi turisztikai egyesület engem választott ki a hivatalos toborzó videójuk főszereplőjének.",
+    "paragraph2": "Ezután értékesítési tanácsadóként dolgoztam a Silver Arrow Car Kft.-nél: ügyfél-tanácsadás, dokumentáció kezelése és utánkövetés, átlagosan havi 10–12 eladott autóval. Jelenleg az OMV-nél dolgozom ügyfélszolgálaton, ahol naponta kb. 250–320 ügyféllel foglalkozom, egy igazán nemzetközi közönségből.",
+    "paragraph3": "Emellett a szabadidőmben önállóan megtanultam a full-stack fejlesztést, és több éles webalkalmazást is készítettem (lásd lentebb) — ezt a technikai hátteret arra használom, hogy gyorsan beletanuljak új rendszerekbe, és magabiztosan kommunikáljak IT-csapatokkal. Jelenleg a következő állomásomat keresem ügyfélszolgálat, rendelésfeldolgozás vagy technikai support területén, Bécsben.",
+    "highlight_experience": "5+ év ügyfélkapcsolat Ausztriában",
+    "highlight_certificate": "Panaszkezelési tanúsítvány",
+    "highlight_location": "Sopron, Magyarország — ingázótávolságra Bécstől",
+    "languages": "Német & angol tárgyalóképes szinten (B2/C1) · magyar anyanyelv"
   },
   "projects": {
     "title": "Projektek",
+    "heading": "Válogatott projektek",
+    "subtitle": "A főállásom mellett, szabadidőmben saját webalkalmazásokat is fejlesztek — ez a technikai háttér segít gyorsan beletanulni új rendszerekbe, és magabiztosan kommunikálni IT-csapatokkal.",
+    "featured_label": "Kiemelt projekt",
     "live_button": "Élő Verzió",
     "github_button": "GitHub",
     "image_placeholder": "Projekt kép",
@@ -94,16 +98,40 @@
   },
   "experience": {
     "title": "Szakmai Tapasztalat",
-    "role": "Full Stack Fejlesztő (Záróprojekt)",
-    "company": "Progmatic Academy",
-    "duration": "2025. július - 2025. szeptember",
-    "description": [
-      "Egy 3 fős agilis csapat tagjaként egy teljes értékű webalkalmazást fejlesztettünk a tervezéstől az élesítésig.",
-      "Önállóan én feleltem az Event és Comment modulok teljes backendjének megtervezéséért és implementálásáért Node.js és Express.js használatával.",
-      "Kialakítottam a REST API végpontokat, és egy robusztus keresési, valamint szűrési funkcionalitást implementáltam a hatékony adatlekérdezés érdekében.",
-      "A frontend oldalon én fejlesztettem a felhasználó-specifikus 'Saját Helyszíneim' és 'Saját Eseményeim' oldalakat, biztosítva, hogy mindenki csak a saját adatait tudja módosítani és törölni (CRUD).",
-      "A projekt kulcsfontosságú UI komponenseiért feleltem, beleértve a teljes, reszponzív Header-t és az Eseménylétrehozó oldalt is.",
-      "Aktívan részt vettem a közös kódellenőrzési (code review) folyamatokban, és a csapatmunkához a Git-et és a JIRA-t használtuk."
+    "entries": [
+      {
+        "role": "Ügyfélszolgálati munkatárs",
+        "company": "OMV",
+        "duration": "2026 – jelenleg",
+        "description": [
+          "Naponta kb. 250–320 ügyfél kiszolgálása (a napi blokkszám alapján), erősen látogatott, multinacionális vendégkör.",
+          "Barátságos, pontos, megoldásorientált ügyfélkiszolgálás magas ügyfélforgalmú környezetben.",
+          "Megbízható műszakrend, esti és hétvégi műszakokkal is."
+        ]
+      },
+      {
+        "role": "Értékesítési tanácsadó",
+        "company": "Silver Arrow Car Kft.",
+        "duration": "2024. nov. – 2026. márc. · 1 év 5 hónap",
+        "description": [
+          "Használt autók értékesítése, átlagosan havi 10–12 darab.",
+          "Ügyfél-tanácsadás ajánlatokról, finanszírozásról és biztosításról (közvetítői alapon).",
+          "Szerződéses dokumentumok ellenőrzése, rendszerezése és nyomon követése az átadásig.",
+          "Emellett: belső digitális autós platform fejlesztése (React, TypeScript, Node.js, PostgreSQL), ügyfélbarát autókereséssel és admin felülettel."
+        ]
+      },
+      {
+        "role": "Főpincér / Vendégkapcsolat",
+        "company": "Hotel RosentalerHof",
+        "duration": "2019 – 2024 · 5 év",
+        "description": [
+          "Nemzetközi vendégek napi szintű kiszolgálása németül és angolul, dinamikus szállodai környezetben.",
+          "Vendégkérések, panaszok, szolgáltatási problémák és eszkalációk professzionális, megoldásorientált kezelése — panaszkezelési tanúsítvánnyal alátámasztva („Gästeglück – richtig gutes Beschwerdemanagement” workshop, 2023).",
+          "Áruk rendelése, átvétele és folyamatos egyeztetés a konyhával, recepcióval és a housekeepinggel.",
+          "3–4 fős szezonális csapat vezetése és beosztása.",
+          "2023-ban a Saalbach Hinterglemm turisztikai egyesület választotta ki a hivatalos toborzó videójuk („Komm ins Home of Lässig Team”) főszereplőjének."
+        ]
+      }
     ]
   },
   "skills": {
@@ -125,23 +153,63 @@
       "Docker"
     ],
     "soft_skills": [
-      "Problémamegoldás",
+      "Ügyfélszolgálat",
+      "Panaszkezelés",
+      "Konfliktkezelés",
       "Kommunikáció",
-      "Csapatmunka",
-      "Alkalmazkodóképesség",
+      "Csapatvezetés",
+      "Terhelhetőség",
+      "Problémamegoldás",
       "Időgazdálkodás",
-      "Kritikus gondolkodás",
-      "Kreativitás",
+      "Alkalmazkodóképesség",
       "Tanulási hajlandóság",
-      "Részletekre való odafigyelés",
-      "Vezetői képességek",
       "Empátia"
     ]
   },
   "certifications": {
     "label": "Képesítések",
     "title": "Certifikátok",
-    "view_cert": "Megtekintés"
+    "view_cert": "Megtekintés",
+    "entries": [
+      {
+        "assetKey": "beschwerdemanagement",
+        "title": "Gästeglück – richtig gutes Beschwerdemanagement",
+        "issuer": "Ute Zischinsky (Die Coach)",
+        "date": "2023",
+        "specialization": "Workshop: Panaszkezelés a vendégkapcsolatban",
+        "skills": ["Panaszkezelés", "Konfliktkezelés", "Vendégkommunikáció"]
+      },
+      {
+        "assetKey": "progmatic",
+        "title": "Junior fejlesztői kurzus tanúsítvány",
+        "issuer": "Progmatic Academy",
+        "date": "2025",
+        "specialization": "Full Stack specializáció",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Express",
+          "Git",
+          "Scrum",
+          "GitHub",
+          "Docker"
+        ]
+      },
+      {
+        "assetKey": "mayerfeld",
+        "title": "Frontend fejlesztői gyakornoki program",
+        "issuer": "Mayerfeld Consulting",
+        "date": "2026",
+        "specialization": "Frontend fejlesztés",
+        "skills": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
   },
   "github": {
     "label": "Aktivitás",

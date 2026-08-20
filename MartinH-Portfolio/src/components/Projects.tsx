@@ -36,11 +36,14 @@ export default function Projects() {
       className="w-full text-white py-20 md:py-32 bg-slate-950"
     >
       <div className="container mx-auto px-6">
-        <div className="mb-16">
+        <div className="mb-16 max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-sky-400 mb-2">
             {t("projects.title")}
           </p>
-          <h2 className="text-4xl font-bold text-white">Selected Projects</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            {t("projects.heading")}
+          </h2>
+          <p className="text-slate-400 leading-7">{t("projects.subtitle")}</p>
         </div>
 
         <div className="flex flex-col gap-20">
@@ -68,7 +71,7 @@ export default function Projects() {
               <div className="flex flex-col gap-5">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-400 mb-2">
-                    Featured Project
+                    {t("projects.featured_label")}
                   </p>
                   <h3 className="text-3xl font-bold text-white">
                     {project.title}

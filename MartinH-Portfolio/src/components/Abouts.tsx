@@ -1,17 +1,17 @@
 import { useTranslation } from "react-i18next";
-import { MapPin, Languages, Code, Globe } from "lucide-react";
+import { MapPin, Languages, Users, Award } from "lucide-react";
 
 export default function About() {
   const { t } = useTranslation();
 
   const highlights = [
     {
-      icon: <Code size={18} className="text-sky-400" />,
-      text: t("about.highlight_fullstack"),
+      icon: <Users size={18} className="text-sky-400" />,
+      text: t("about.highlight_experience"),
     },
     {
-      icon: <Globe size={18} className="text-sky-400" />,
-      text: t("about.highlight_deployed"),
+      icon: <Award size={18} className="text-sky-400" />,
+      text: t("about.highlight_certificate"),
     },
     {
       icon: <MapPin size={18} className="text-sky-400" />,
